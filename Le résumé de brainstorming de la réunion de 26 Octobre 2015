@@ -1,0 +1,11 @@
+
+
+1. Dans un premier temps il faut appliquer un filtre pour enlever le bruit. Puis on applique les méthodes de  régression sur les
+données call-in, call-out, SMS-in, SMS-out et Internet. Finalement, on compare les résultats avec les données de "présence".
+
+2. 1. Construire les chaines de Markov pour les données de land-use,  trajectoires et Twitter . Les états des chaines de Markov 
+sont les  différents land-use  et les transitions entre ces états se trouvent dans les données de trajectoires et Twitter.
+On construit une chaine de Markov pour chaque jour de la semaine et pour tous les utilisateurs. 
+
+2.2. A partir des données mentionnées ci-dessus, on essaye de trouver des motifs de déplacements entre les land-uses pour chaque
+utilisateur.
